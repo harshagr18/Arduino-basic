@@ -85,10 +85,11 @@ void loop()
   if(flag==1)
   {
      digitalWrite(6,HIGH);
-     delay(300000);
+     delay(2000);
      digitalWrite(6,LOW);
      delay(1000);
-    }
+     j=0;
+  }
   if(flag==0)
   {
     digitalWrite(7,HIGH);
