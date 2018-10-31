@@ -49,14 +49,7 @@ void loop()
        delay(500);
        break;
      }
-     case 4:
-     {
-       digitalWrite(11,HIGH);
-       delay(500);
-       digitalWrite(11,LOW);
-       delay(500);
-       break;
-     }
+     
    }  
   }
   delay(1000);
